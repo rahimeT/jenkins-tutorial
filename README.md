@@ -1,7 +1,6 @@
 # jenkins-tutorial
 Uygulamalarımızı, toolları sürekli update ediyoruz. Bu sürekli update işlemleri için sürekli test edilmeli ve deploy edilmeli. Bunu jenkins ile sağlayabiliriz
 
-![Screenshot 2023-06-22 at 13.01.48.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/914992b9-5a64-4008-84c2-9f328f64193c/Screenshot_2023-06-22_at_13.01.48.png)
 
 1. geliştirici kodu repo ya gönderir. bu arada jenkins sunucusu düzenli aralıklarla repoyu kontrol eder. bir commit gerçekleştikten sonra kısa süre sonra jenkins sunucusu kaynak kod deposunda meydana gelen değişiklikleri algılar, jenkins bu değişiklikleri algılar ve yeni bir build hazırlamaya başlar. 
 2. build başarısız olursa ekip bilgilendirilir. başarılı olursa jenkins yerleşik test sunucusuna dağıtır
